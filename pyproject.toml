@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "isolated-diversity"
+version = "0.1.0"
+description = ""
+authors = ["vengroff <vengroff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "isolated_diversity"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.6.1"
+matplotlib = "^3.7.0"
+censusdis = "^0.10.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
