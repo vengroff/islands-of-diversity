@@ -10,7 +10,7 @@ packages = [{include = "isolated_diversity"}]
 python = "^3.9"
 jupyterlab = "^3.6.1"
 matplotlib = "^3.7.0"
-censusdis = "^0.10.5"
+censusdis = "^0.10.6"
 
 [build-system]
 requires = ["poetry-core"]
